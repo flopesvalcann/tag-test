@@ -7,3 +7,5 @@ phases:
   build:
     commands:
       - echo "Hello, this is a test message!"
+      - TAG_NUMBER="$(git describe --tags --abbrev=0)"
+
